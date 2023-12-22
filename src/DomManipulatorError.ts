@@ -1,0 +1,1 @@
+export default class DomManipulatorError extends Error { }
