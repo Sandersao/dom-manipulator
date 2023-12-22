@@ -2,9 +2,10 @@
   "name": "dom-manipulator",
   "version": "1.0.0",
   "description": "A DOM manipulator for JS projects",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Sandersao/dom-manipulator/issues"
   },
-  "homepage": "https://github.com/Sandersao/dom-manipulator#readme"
+  "homepage": "https://github.com/Sandersao/dom-manipulator#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
