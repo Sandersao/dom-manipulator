@@ -1,12 +1,12 @@
 {
-  "name": "dom-manipulator",
+  "name": "sandersao-dom-manipulator",
   "version": "1.0.0",
   "description": "A DOM manipulator for JS projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "publish": "tsc && npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
